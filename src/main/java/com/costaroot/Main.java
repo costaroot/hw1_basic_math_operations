@@ -16,8 +16,7 @@ public class Main {
         resultByteOperation = (byte) (varByte * varByte2);
         System.out.println("Multiplication  var1 * var2 = " + resultByteOperation);
         resultByteOperation = (byte) (varByte / varByte2);
-        System.out.println("Division var1 / var2 = " + resultByteOperation);
-        System.out.println();
+        System.out.println("Division var1 / var2 = " + resultByteOperation+"\n");
 
         short varShort = 1000;
         short varShort2 = 25;
@@ -31,8 +30,7 @@ public class Main {
         resultShortOperation = (short) (varShort * varShort2);
         System.out.println("Multiplication  var1 * var2 = " + resultShortOperation);
         resultShortOperation = (short) (varShort / varShort2);
-        System.out.println("Division var1 / var2 = " + resultShortOperation);
-        System.out.println();
+        System.out.println("Division var1 / var2 = " + resultShortOperation+"\n");
 
         int varInt = 65000;
         int varInt2 = -64500;
@@ -46,8 +44,7 @@ public class Main {
         resultIntOperation = varInt * varInt2;
         System.out.println("Multiplication  var1 * var2 = " + resultIntOperation);
         resultIntOperation = varInt / varInt2;
-        System.out.println("Division var1 / var2 = " + resultIntOperation);
-        System.out.println();
+        System.out.println("Division var1 / var2 = " + resultIntOperation+"\n");
 
         float varFloat = 10.5f;
         float varFloat2 = 10.1f;
@@ -61,8 +58,7 @@ public class Main {
         resultFloatOperation = varFloat * varFloat2;
         System.out.println("Multiplication  var1 * var2 = " + resultFloatOperation);
         resultFloatOperation = varFloat / varFloat2;
-        System.out.println("Division var1 / var2 = " + resultFloatOperation);
-        System.out.println();
+        System.out.println("Division var1 / var2 = " + resultFloatOperation+"\n");
 
         double varDouble = 125.25;
         double varDouble2 = -125.25;
@@ -76,11 +72,20 @@ public class Main {
         resultDoubleOperation = varDouble * varDouble2;
         System.out.println("Multiplication  var1 * var2 = " + resultDoubleOperation);
         resultDoubleOperation = varDouble / varDouble2;
-        System.out.println("Division var1 / var2 = " + resultDoubleOperation);
-        System.out.println();
+        System.out.println("Division var1 / var2 = " + resultDoubleOperation+"\n");
 
+        long varLong = 525000;
+        long varLong2 = -225000;
+        long resultLongOperation;
 
+        System.out.println("Basic operations with LONG variables var1 = " + varLong + " var2= " + varLong2);
+        resultLongOperation = varLong + varLong2;
+        System.out.println("Addition var1 + var2 = " + resultLongOperation);
+        resultLongOperation = varLong - varLong2;
+        System.out.println("Subtraction var1 - var2 = " + resultLongOperation);
+        resultLongOperation = varLong * varLong2;
+        System.out.println("Multiplication  var1 * var2 = " + resultLongOperation);
+        resultLongOperation = varLong / varLong2;
+        System.out.println("Division var1 / var2 = " + resultLongOperation);
     }
 }
-
-
